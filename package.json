@@ -1,0 +1,25 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cd client && concurrently \"npm start\" \"node ../server/server\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SomeNerdNamedSteve/portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SomeNerdNamedSteve/portfolio/issues"
+  },
+  "homepage": "https://github.com/SomeNerdNamedSteve/portfolio#readme",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "sync-request": "^6.0.0"
+  }
+}
